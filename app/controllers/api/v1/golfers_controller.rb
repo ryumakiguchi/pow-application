@@ -5,7 +5,7 @@ class GolfersController < ApplicationController
   def index
     @golfers = Golfer.all
 
-    render json: @golfer
+    render json: @golfers
   end
 
   def show
