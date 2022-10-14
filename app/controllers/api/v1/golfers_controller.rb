@@ -23,7 +23,7 @@ class GolfersController < ApplicationController
   private
 
   def golfer_params
-    params.permit(:name, :breed)
+    params.permit(:name, :handicap, :review)
   end
 end
 end
